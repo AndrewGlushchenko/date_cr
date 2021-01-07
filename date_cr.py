@@ -56,7 +56,7 @@ def main():
     args = parser.parse_args()
     print(args.fileName)
 
-    print('now is', time.strftime("%c"))
+
     print('now is', time.strftime("%Y %d %h %H:%M"))
 
     if args.fileName == None:
@@ -73,8 +73,9 @@ pass
 if __name__ == '__main__':
     main()
 
-#print('now is', time.strftime("%Y %d %h %H:%M"))
+# print('now is', time.strftime("%Y %d %h %H:%M"))
 # print('now is', time.strftime("%c"))
+
 #d = time.localtime()
 #print(d)
 #print("Top folder: ", folder)
