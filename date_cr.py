@@ -57,6 +57,7 @@ def main():
     print(args.fileName)
 
     print('now is', time.strftime("%c"))
+    print('now is', time.strftime("%Y %d %h %H:%M"))
 
     if args.fileName == None:
         print("Top folder: ", folder)
